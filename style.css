@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("mountain-img.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    width: 40vw;
+    height: 70vh;
+    background-color: rgba(255, 165, 0, 0.3); /* semi-transparent pink */
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(2.5px);
+
+}
+
+.clock {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.clock1 {
+  
+    flex: 0 0 55%;
+}
+
+.clock2 {
+    
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#hrs, #mins {
+    font-size: 100px;
+}
+
+#colon {
+    font-size: 90px;
+    margin: 10px 0;
+}
+
+#am-pm {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+#seconds {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+#date, #month {
+    font-size: 40px;
+    margin: 5px;
+}
+
+#year {
+    font-size: 60px;
+    margin: 5px;
+}
+
+#day {
+    font-size: 50px;
+    margin: 5px;
+}

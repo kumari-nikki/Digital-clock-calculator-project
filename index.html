@@ -1,15 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Digital clock</title>
 </head>
-<body style="background-color: black; color:white; display:flex; justify-content: center;align-items: center; height:100vh;">
-    <div id="time" style="font-size: 50px;">
 
+<body style="color:black; display:flex; justify-content: center;align-items: center; height:100vh;">
+    <div class="container">
+        <div class="clock clock1">
+            <div id="hrs">
+                0 0
+            </div>
+            <div id="colon">
+                <pre>:  :</pre>
+            </div>
+            <div id="mins">
+                0 0
+            </div>
+        </div>
+        <div class="clock clock2">
+            <div class="date">
+                <span id="date">01</span><span id="month">January</span>
+            </div>
+            <div id="year">
+                2000
+            </div>
+            <div id="day">MON</div>
+            <div id="am-pm">
+                AM
+            </div>
+            <div id="seconds">00</div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
